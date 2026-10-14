@@ -1,0 +1,29 @@
+{
+  "checks": [
+    "Data integrity: counts, unique IDs, four unique choices and answer membership",
+    "Lesson search and expandable content",
+    "Consonant and vowel feature selection",
+    "Card reveal, weak-card queue, rating removal and reload persistence",
+    "Wrong-answer feedback, repeat-score prevention, mistake retry and completion",
+    "Word search, variant matching, stale-feedback clearing, self-rating and weak-word filter",
+    "IPA keyboard inserts at the cursor",
+    "Separate RP/GA sentence drafts, model and reload persistence",
+    "Full official mock: all 31 theory fields, autosave, stable timer, accent lock, 18 automatic checks, 13 self-reviews, transcription model",
+    "Progress export, merge import and invalid-file rejection",
+    "No page overflow across 10 sections at 320, 390, 600, 834 and 1440 px",
+    "Word practice remains usable with 200% base text",
+    "Reduced-motion preference supported",
+    "Offline reload, interactive word practice and cached printable sheet",
+    "No JavaScript exceptions during all flows"
+  ],
+  "errors": [],
+  "data": {
+    "words": 176,
+    "cards": 93,
+    "questions": 119,
+    "mock": 31,
+    "unique": 176,
+    "bad": []
+  },
+  "overflows": []
+}
