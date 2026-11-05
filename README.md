@@ -3,7 +3,7 @@
 An English-language study companion for **English Sounds and Sound Systems (SoSe 2026)**, prepared for the **16 October 2026 resit, 10:00–12:00, HGA 30**.
 
 - Site: https://sirmrba.github.io/sounds-sprint-sidelya/
-- Private source repository: https://github.com/SirMrBA/sounds-sprint-sidelya
+- Public source repository: https://github.com/SirMrBA/sounds-sprint-sidelya
 - The GitHub Pages website itself is public. Original course PDFs and Moodle credentials are not included.
 
 ## Study tools
