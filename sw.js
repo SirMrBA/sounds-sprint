@@ -1,4 +1,4 @@
-const CACHE='sounds-sprint-20261014-v1';
+const CACHE='sounds-sprint-20261105-v2';
 const ASSETS=['./','index.html','styles.css','data.js','mock.js','app.js','icon.svg','icon-192.png','icon-512.png','manifest.webmanifest','cheat-sheet.html','Sounds-Sprint-Cheat-Sheet.pdf'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS)).then(()=>self.skipWaiting()));});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith('sounds-sprint-')&&key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim()));});
